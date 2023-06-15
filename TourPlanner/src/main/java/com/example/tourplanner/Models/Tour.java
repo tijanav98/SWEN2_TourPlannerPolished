@@ -1,4 +1,4 @@
-package com.example.tourplanner.Model;
+package com.example.tourplanner.Models;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
