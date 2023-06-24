@@ -1,4 +1,4 @@
-package com.example.tourplanner.Models;
+package com.example.tourplanner.DAL.models;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,6 +9,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Tour {
+    private int id;
     private String name;
     private String description;
     private String from;

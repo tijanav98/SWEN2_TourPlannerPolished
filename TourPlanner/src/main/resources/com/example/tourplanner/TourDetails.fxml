@@ -13,7 +13,8 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tourplanner.FXApp.view.TourDetailsController">
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.tourplanner.FXApp.view.TourDetailsController">
         <children>
             <GridPane alignment="CENTER" prefHeight="372.0" prefWidth="478.0" VBox.vgrow="ALWAYS">
                 <columnConstraints>

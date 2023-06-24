@@ -16,14 +16,12 @@
             <MenuItem text ="Export file" />
         </Menu>
         <Menu text="Edit">
-
         </Menu>
         <Menu text="Options">
             <MenuItem text="Create tour report"/>
             <MenuItem text ="Create summarize report" />
         </Menu>
         <Menu text="Help">
-
         </Menu>
     </MenuBar>
     <fx:include fx:id="searchBar" source="Searchbar.fxml" />

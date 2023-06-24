@@ -4,17 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a897ec80-fb68-438a-bddb-887bfce5f666" name="Changes" comment="found a weird mistake, split the main window">
-      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/TourDetailsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/TourListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/TourDetails.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/TourList.fxml" afterDir="false" />
+    <list default="true" id="a897ec80-fb68-438a-bddb-887bfce5f666" name="Changes" comment="splitting fxml files and making sure it looks somewhat good">
+      <change afterPath="$PROJECT_DIR$/BL/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BL/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BL/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BL/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BL/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BL/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BL/src/main/java/com/example/bl/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BL/src/main/java/com/example/bl/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BL/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BL/src/main/resources/com/example/bl/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/src/main/java/com/example/dal/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/src/main/java/com/example/dal/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAL/src/main/resources/com/example/dal/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/DAL/dal/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/DAL/dal/TourDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/viewmodel/TourDetailsViewmodel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/viewmodel/TourListViewmodel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/MainWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/SearchbarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/SearchbarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/viewmodel/SearchbarViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/viewmodel/SearchbarViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/Models/Tour.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/DAL/models/Tour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/MainWindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/Searchbar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/Searchbar.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/TourDetails.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/TourDetails.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/TourList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/TourList.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +51,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,6 +83,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "zulu-17",
     "last_directory_selection": "C:/Users/mprue/Documents/Studium/4_Semester_Sommer23/SWEN/SWEN_TourPlanner/SWEN_TourPlanner/TourPlanner/src/main/java/com/example/tourplanner",
     "last_opened_file_path": "/Users/tijana/Desktop/SWEN_TourPlanner",
     "node.js.detected.package.eslint": "true",
@@ -122,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687245073535</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="splitting fxml files and making sure it looks somewhat good">
+      <created>1687602921800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687602921800</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +191,8 @@
     <MESSAGE value="adding lombok in the dependencies" />
     <MESSAGE value="adding some classes vor MVVP" />
     <MESSAGE value="found a weird mistake, split the main window" />
-    <option name="LAST_COMMIT_MESSAGE" value="found a weird mistake, split the main window" />
+    <MESSAGE value="splitting fxml files and making sure it looks somewhat good" />
+    <option name="LAST_COMMIT_MESSAGE" value="splitting fxml files and making sure it looks somewhat good" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

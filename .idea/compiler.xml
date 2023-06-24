@@ -7,6 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="BL" />
+        <module name="DAL" />
       </profile>
       <profile name="Annotation profile for TourPlanner" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -19,6 +21,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BL" target="17" />
+      <module name="DAL" target="17" />
       <module name="TourPlanner" target="17" />
     </bytecodeTargetLevel>
   </component>
