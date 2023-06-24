@@ -2,11 +2,12 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.GridPane?>
 
-<AnchorPane prefHeight="28.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tourplanner.FXApp.view.SearchbarController">
-    <TextField prefHeight="25.0" prefWidth="554.0" promptText="Search..." GridPane.columnSpan="3" GridPane.rowIndex="1" />
-    <Button layoutX="548.0" mnemonicParsing="false" text="Search" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="1" GridPane.vgrow="SOMETIMES" />
+<?import javafx.scene.layout.HBox?>
+<HBox xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.tourplanner.HelloController">
+    <TextField prefHeight="25.0" promptText="Search..." fx:id="searchfield" HBox.hgrow="ALWAYS"/>
+    <Button text="Search" fx:id="searchbutton" />
 
-</AnchorPane>
+</HBox>

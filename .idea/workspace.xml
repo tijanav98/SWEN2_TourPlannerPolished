@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a897ec80-fb68-438a-bddb-887bfce5f666" name="Changes" comment="adding some classes vor MVVP">
-      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/SearchbarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/viewmodel/SearchbarViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/Searchbar.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="a897ec80-fb68-438a-bddb-887bfce5f666" name="Changes" comment="found a weird mistake, split the main window">
+      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/TourDetailsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/TourListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/TourDetails.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/TourList.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TourPlanner/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/MainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/MainWindowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/SearchbarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/SearchbarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/MainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/Searchbar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/Searchbar.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,20 +51,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tijana/Desktop/SWEN_TourPlanner&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "C:/Users/mprue/Documents/Studium/4_Semester_Sommer23/SWEN/SWEN_TourPlanner/SWEN_TourPlanner/TourPlanner/src/main/java/com/example/tourplanner",
+    "last_opened_file_path": "/Users/tijana/Desktop/SWEN_TourPlanner",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner" />
@@ -112,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686954614756</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="found a weird mistake, split the main window">
+      <created>1687245073535</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687245073535</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +155,8 @@
     <MESSAGE value="design update" />
     <MESSAGE value="adding lombok in the dependencies" />
     <MESSAGE value="adding some classes vor MVVP" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding some classes vor MVVP" />
+    <MESSAGE value="found a weird mistake, split the main window" />
+    <option name="LAST_COMMIT_MESSAGE" value="found a weird mistake, split the main window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
