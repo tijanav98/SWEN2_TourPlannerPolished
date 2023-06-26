@@ -13,10 +13,14 @@ public class SearchbarController {
     @FXML
     public TextField searchField;
 
-    private final SearchbarViewModel searchbarViewModel;
+    //private final SearchbarViewModel searchbarViewModel;
 
-    public SearchbarController(SearchbarViewModel searchbarViewModel) {
+    /*public SearchbarController(SearchbarViewModel searchbarViewModel) {
         this.searchbarViewModel = searchbarViewModel;
+    }*/
+
+    public SearchbarController() {
+
     }
 
     public void searchAction(ActionEvent actionEvent) {
