@@ -10,9 +10,9 @@
             prefHeight="400.0" prefWidth="600.0">
         <ToolBar>
             <Label text="TourList" />
-            <Button text="Add"/>
-            <Button text="Mod"/>
-            <Button text="Del"/>
+            <Button text="Add" fx:id="addTour"/>
+            <Button text="Mod" fx:id="modifyTour"/>
+            <Button text="Del" fx:id="deleteTour"/>
         </ToolBar>
         <ListView fx:id="TourListView" VBox.vgrow="ALWAYS"/>
 </VBox>

@@ -15,7 +15,6 @@
 
 <VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="com.example.tourplanner.FXApp.view.TourDetailsController">
-        <children>
             <GridPane alignment="CENTER" prefHeight="372.0" prefWidth="478.0" VBox.vgrow="ALWAYS">
                 <columnConstraints>
                     <ColumnConstraints />
@@ -32,11 +31,8 @@
                     <RowConstraints maxHeight="116.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
                     <RowConstraints maxHeight="167.0" minHeight="10.0" prefHeight="161.0" vgrow="SOMETIMES" />
                 </rowConstraints>
-                <children>
                     <ImageView id="map" fitHeight="150.0" fitWidth="469.0" pickOnBounds="true" GridPane.columnIndex="4" GridPane.columnSpan="4">
-                        <image>
-                            <Image url="@../../../../../../../../../../../../../Pictures/IMG_4697.jpg" />
-                        </image>
+                        <Image url="@../../../../../../../../../../../../../Pictures/IMG_4697.jpg" />
                         <GridPane.margin>
                             <Insets />
                         </GridPane.margin>
@@ -62,16 +58,12 @@
                         </padding>
                     </TableView>
                     <HBox alignment="CENTER" prefHeight="65.0" prefWidth="143.0" GridPane.columnIndex="6" GridPane.columnSpan="2" GridPane.rowIndex="1">
-                        <children>
-                            <Button mnemonicParsing="false" text="Add" />
-                            <Button mnemonicParsing="false" text="Mod" />
-                            <Button mnemonicParsing="false" text="Del" />
-                        </children>
+                            <Button mnemonicParsing="false" text="Add" fx:id="addTourLog"/>
+                            <Button mnemonicParsing="false" text="Mod"  fx:id="modifyTourLog"/>
+                            <Button mnemonicParsing="false" text="Del" fx:id="deleteTourLog"/>
                     </HBox>
-                </children>
                 <VBox.margin>
                     <Insets />
                 </VBox.margin>
             </GridPane>
-        </children>
 </VBox>
