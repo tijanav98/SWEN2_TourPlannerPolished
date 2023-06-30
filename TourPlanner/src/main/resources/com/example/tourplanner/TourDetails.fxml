@@ -58,9 +58,9 @@
                         </padding>
                     </TableView>
                     <HBox alignment="CENTER" prefHeight="65.0" prefWidth="143.0" GridPane.columnIndex="6" GridPane.columnSpan="2" GridPane.rowIndex="1">
-                            <Button mnemonicParsing="false" text="Add" fx:id="addTourLog"/>
-                            <Button mnemonicParsing="false" text="Mod"  fx:id="modifyTourLog"/>
-                            <Button mnemonicParsing="false" text="Del" fx:id="deleteTourLog"/>
+                            <Button mnemonicParsing="false" text="Add" fx:id="addTourLog" onAction="#addTourLog"/>
+                            <Button mnemonicParsing="false" text="Mod"  fx:id="modifyTourLog" onAction="#modTourLog"/>
+                            <Button mnemonicParsing="false" text="Del" fx:id="deleteTourLog" onAction="#delTourLog"/>
                     </HBox>
                 <VBox.margin>
                     <Insets />
