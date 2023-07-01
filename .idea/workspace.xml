@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a897ec80-fb68-438a-bddb-887bfce5f666" name="Changes" comment="db.sql implementation">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TourPlanner/db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/DAL/dal/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/DAL/dal/DBManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/DAL/dal/UnitOfWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/exception/DataAccessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SWEN_TourPlanner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SWEN_TourPlanner.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/AddTourMaskController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/MainWindowController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/SearchbarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/TourDetailsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/TourListController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/viewmodel/MainWindowViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/viewmodel/SearchbarViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/viewmodel/TourDetailsViewmodel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/viewmodel/TourListViewModel.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/module-info.java" afterDir="false" />
     </list>
@@ -62,11 +64,15 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "zulu-17",
     "last_directory_selection": "C:/Users/mprue/Documents/Studium/4_Semester_Sommer23/SWEN/SWEN_TourPlanner/SWEN_TourPlanner/TourPlanner/src/main/java/com/example/tourplanner",
-    "last_opened_file_path": "/Users/tijana/Documents/GitHub/SWEN_TourPlanner2/TourPlanner/src/main/java/com/example/tourplanner",
+    "last_opened_file_path": "/Users/tijana/Desktop/lib",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -115,7 +121,11 @@
       <updated>1682694383438</updated>
       <workItem from="1686510693590" duration="360000" />
       <workItem from="1687974261917" duration="868000" />
-      <workItem from="1688136164476" duration="6139000" />
+      <workItem from="1688136164476" duration="6947000" />
+      <workItem from="1688218663104" duration="209000" />
+      <workItem from="1688218885281" duration="1688000" />
+      <workItem from="1688220687307" duration="28000" />
+      <workItem from="1688221717695" duration="2053000" />
     </task>
     <task id="LOCAL-00001" summary="design update">
       <created>1686757115641</created>
@@ -166,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687627650891</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="db.sql implementation">
+      <created>1688216833464</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688216833464</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
