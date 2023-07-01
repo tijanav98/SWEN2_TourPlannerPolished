@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a897ec80-fb68-438a-bddb-887bfce5f666" name="Changes" comment="added a dao interface and a first implementation">
-      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/DAL/dal/TourLogDao.java" afterDir="false" />
+    <list default="true" id="a897ec80-fb68-438a-bddb-887bfce5f666" name="Changes" comment="db.sql implementation">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TourPlanner/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/DAL/dal/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/DAL/dal/DBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/DAL/dal/UnitOfWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/exception/DataAccessException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/DAL/models/TourLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/DAL/models/TourLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/FXApp/view/MainWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/Searchbar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/resources/com/example/tourplanner/Searchbar.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TourPlanner/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/TourPlanner/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,22 +54,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;zulu-17&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/mprue/Documents/Studium/4_Semester_Sommer23/SWEN/SWEN_TourPlanner/SWEN_TourPlanner/TourPlanner/src/main/java/com/example/tourplanner&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tijana/Desktop/SWEN_TourPlanner&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "zulu-17",
+    "last_directory_selection": "C:/Users/mprue/Documents/Studium/4_Semester_Sommer23/SWEN/SWEN_TourPlanner/SWEN_TourPlanner/TourPlanner/src/main/java/com/example/tourplanner",
+    "last_opened_file_path": "/Users/tijana/Documents/GitHub/SWEN_TourPlanner2/TourPlanner/src/main/java/com/example/tourplanner",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TourPlanner/src/main/java/com/example/tourplanner" />
       <recent name="$PROJECT_DIR$/TourPlanner/src/main/java/com" />
@@ -75,6 +90,21 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="TourPlanner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="TourPlanner" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,6 +114,8 @@
       <option name="presentableId" value="Default" />
       <updated>1682694383438</updated>
       <workItem from="1686510693590" duration="360000" />
+      <workItem from="1687974261917" duration="868000" />
+      <workItem from="1688136164476" duration="6139000" />
     </task>
     <task id="LOCAL-00001" summary="design update">
       <created>1686757115641</created>
@@ -170,7 +202,8 @@
     <MESSAGE value="found a weird mistake, split the main window" />
     <MESSAGE value="splitting fxml files and making sure it looks somewhat good" />
     <MESSAGE value="added a dao interface and a first implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a dao interface and a first implementation" />
+    <MESSAGE value="db.sql implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="db.sql implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
